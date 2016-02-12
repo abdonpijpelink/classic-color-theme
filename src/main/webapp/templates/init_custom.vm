@@ -1,0 +1,6 @@
+#set ($css_class = "classic-color dockbar-split")
+
+#set ($primary-color-dark = $theme_settings.getProperty('primary-color-dark'))
+#set ($primary-color-light = $theme_settings.getProperty('primary-color-light'))
+#set ($secondary-color-dark = $theme_settings.getProperty('secondary-color-dark'))
+#set ($secondary-color-light = $theme_settings.getProperty('secondary-color-light'))

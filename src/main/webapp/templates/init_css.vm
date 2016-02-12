@@ -1,0 +1,188 @@
+<style type="text/css">
+
+/* General */
+	
+.aui .classic-color a 
+{
+	color: $primary-color-dark;
+}
+
+.aui .classic-color a:hover 
+{
+	color: $primary-color-light;
+}
+
+/* Header */
+
+.aui .classic-color #heading .site-title a
+{
+	color: inherit;
+}
+	
+/* Dockbar */
+	
+.aui .classic-color .dockbar 
+{
+	background-color: $primary-color-dark;
+	background-image: none;
+}
+	
+.aui .classic-color .dockbar.menu-button-active 
+{
+	background-color: $primary-color-light;
+	background-image: none;
+}
+
+.aui .classic-color .dockbar .navbar-inner,
+.aui .classic-color .dockbar .navbar-inner .nav li
+{
+	background-color: $primary-color-dark !important;
+	background-image: none !important;
+}
+
+.aui .dockbar-split .dockbar .navbar-inner .nav-account-controls, 
+.aui .classic-color .dockbar-split .dockbar .navbar-inner .nav-account-controls
+{
+	border-top: 1px solid $primary-color-dark !important;
+}
+
+.aui .classic-color .dockbar .navbar-inner .nav li.dropdown.open .dropdown-toggle
+{
+	background-color: $primary-color-light !important;
+	background-image: none !important;
+}
+
+.aui .classic-color .dockbar .navbar-inner a:hover,
+.aui .classic-color .dockbar .navbar-inner a.open,
+.aui .classic-color .dockbar .navbar-inner .nav li a:hover
+{
+	background-color: $primary-color-light !important;
+	background-image: none !important;
+}
+
+.aui .classic-color .dockbar .navbar-inner .nav li ul
+{
+	background-color: $primary-color-dark !important;
+	background-image: none !important;
+}
+
+.aui .classic-color .dockbar-user-notifications .user-notifications-count, 
+.aui .classic-color .notifications-portlet .user-notifications-count
+{
+	background-color: $secondary-color-light;
+	border: 1px solid $secondary-color-light;
+}
+
+.aui .classic-color .dockbar .container .btn .user-avatar-image, 
+.aui .classic-color .dockbar .nav li.dropdown.user-avatar .user-avatar-image
+{
+	-webkit-box-shadow: 0 0 0 2px $secondary-color-light;
+	-moz-box-shadow: 0 0 0 2px $secondary-color-light;
+	box-shadow: 0 0 0 2px $secondary-color-light;
+}
+
+/* Add controls */
+
+.aui .classic-color .dockbar .navbar-inner .nav-add-controls li
+{
+	background-color: transparent !important;
+	background-image: none !important;
+}
+
+.aui .classic-color .dockbar .navbar-inner .nav-add-controls li a
+{
+	background-color: $primary-color-light !important;
+	background-image: none !important;
+}
+
+.aui .classic-color .dockbar .navbar-inner .nav-add-controls li a:hover
+{
+	background-color: $primary-color-dark !important;
+}
+
+/* Navigation menu */
+
+.aui .classic-color #navigation .navbar-inner
+{
+	background-color: $secondary-color-dark;
+}
+
+.aui .classic-color #navigation .navbar-inner .open a
+{
+	background-color: $primary-color-dark;
+	background-image: none;
+}
+
+.aui .classic-color #navigation .navbar-inner li a:hover
+{
+	background-color: $primary-color-dark;
+	background-image: none;
+}
+
+.aui .classic-color #navigation .navbar-inner .active > a 
+{
+	background-color: $primary-color-dark;
+	background-image: none;
+}
+
+.aui .classic-color #navigation .nav .dropdown-menu 
+{
+	background: $primary-color-dark; !important;
+	background-image: none;
+}
+
+/* Portlets */
+
+.aui .classic-color .portlet-topper, .aui .lfr-configurator-visibility header.portlet-topper
+{
+	background-color: $secondary-color-light;
+}
+
+.aui .classic-color .portlet-content
+{
+	border: 1px solid $secondary-color-light;
+}
+
+.aui .classic-color .portlet .navbar .nav > li > a:hover
+{
+	color: $primary-color-light;
+}
+
+/* Buttons */
+
+.aui .classic-color .btn-primary
+{
+	background: $primary-color-dark; !important;
+	background-image: none;
+}
+
+.aui .classic-color .btn-primary:hover
+{
+	background: $primary-color-light; !important;
+	background-image: none;
+}
+
+/* Calendar */
+
+.aui .classic-color .scheduler-view-agenda-info-container .scheduler-view-agenda-info
+{
+	color: $primary-color-dark;
+}
+
+.aui .classic-color .scheduler-view-table-colgrid-today
+{
+	border: 1px solid $primary-color-light;
+}
+
+.aui .classic-color .scheduler-view-table-data-col-title-today
+{
+	color: $primary-color-light;
+	border: 1px solid $primary-color-light;
+	border-bottom: none;
+}
+
+/* Message board */
+
+
+
+</style>

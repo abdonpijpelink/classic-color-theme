@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 6.2.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_6_2_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>6.2.0+</version>
+	</compatibility>
+	<theme id="classic-color" name="Rainbow Warrior Theme">
+		<settings>
+			<setting configurable="true" type="text" key="primary-color-dark" value="#118ADE">
+				<![CDATA[
+ 					AUI().ready('node',function(A) {
+	 					A.one("#[@NAMESPACE@]primary-color-dark").setAttribute("type", "color");    
+	 					A.one("#[@NAMESPACE@]primary-color-dark").setAttribute("style", "height: 35px;");    
+					});
+				]]>
+			</setting>
+			<setting configurable="true" type="text" key="primary-color-light" value="#45CBF5">
+				<![CDATA[
+ 					AUI().ready('node',function(A) {
+	 					A.one("#[@NAMESPACE@]primary-color-light").setAttribute("type", "color");    
+	 					A.one("#[@NAMESPACE@]primary-color-light").setAttribute("style", "height: 35px;");    
+					});
+				]]>
+			</setting>
+			<setting configurable="true" type="text" key="secondary-color-dark" value="#555">
+				<![CDATA[
+ 					AUI().ready('node',function(A) {
+	 					A.one("#[@NAMESPACE@]secondary-color-dark").setAttribute("type", "color");    
+	 					A.one("#[@NAMESPACE@]secondary-color-dark").setAttribute("style", "height: 35px;");    
+					});
+				]]>
+			</setting>
+			<setting configurable="true" type="text" key="secondary-color-light" value="#D3D3D3">
+				<![CDATA[
+ 					AUI().ready('node',function(A) {
+	 					A.one("#[@NAMESPACE@]secondary-color-light").setAttribute("type", "color");    
+	 					A.one("#[@NAMESPACE@]secondary-color-light").setAttribute("style", "height: 35px;");    
+					});
+				]]>
+			</setting>
+			<setting configurable="true" key="bullet-style" options="dots,arrows" type="select" value="dots" />
+			<setting configurable="true" key="portlet-setup-show-borders-default" type="checkbox" value="true" />
+			<setting configurable="false" key="show-site-name-default" value="true" />
+			<setting configurable="false" key="show-site-name-supported" value="true" />
+		</settings>
+	</theme>
+</look-and-feel>
